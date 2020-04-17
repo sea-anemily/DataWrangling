@@ -1,0 +1,34 @@
+---
+title: "Ch13"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(nycflights13)
+```
+
+## 13.2.1
+1. you would combine flights and planes. you would need orgin dest lat and lon
+2.
+3.time
+4.the keys would be the date and the number of people
+
+## 13.3.1
+1.a surragate key for flights could be tailnum
+2.  1.
+    2.names year
+    3.
+    4.mpg, vehicle
+    5.carrot, weight
+3.
+```{r, eval=FALSE}
+library("Lahman")
+view(LahmanData)
+view(battingStats())
+view(Pitching)
+```
+
+## 13.5.1
+1. 
